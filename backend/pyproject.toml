@@ -1,0 +1,18 @@
+[project]
+name = "inventory-backend"
+version = "0.1.0"
+description = "庫存管理系統後端（Flask + SQLAlchemy + Alembic）"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1",
+    "flask-sqlalchemy>=3.1",
+    "flask-migrate>=4.1",
+    "flask-cors>=6.0",
+    "psycopg[binary]>=3.3",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

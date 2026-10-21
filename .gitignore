@@ -1,0 +1,22 @@
+# 環境
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# 前端
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# BMAD 產出（保留；如不想進版控可調整）
+# _bmad-output/
+
+# 編輯器 / 作業系統
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
